@@ -2,18 +2,17 @@ import { styled } from '@mui/material/styles';
 import { Box} from '@mui/material';
 
 export const FooterContainer = styled(Box)(({ theme }) => ({
-    marginTop:'180px',
     display: 'flex',
     justifyContent: ' flex-start',
     width:'100%',
     height:'100%',
     padding: '0px 0px',
-    background: '#003479'
+    backgroundColor: theme.palette.primary.main
     
   }));
 
 export const FooterContent = styled(Box)(() => ({
-    marginTop:'40px',
+    paddingTop:'40px',
     display: 'flex',
     flexDirection: 'column',
     alignItems:'center',
@@ -32,7 +31,7 @@ export const CopyrightContainer = styled(Box)(({ theme }) => ({
   width:'100%',
   height:'100%',
   padding: '20px',
-  background: '#003479'
+  background: theme.palette.primary.main
   
 }));
 

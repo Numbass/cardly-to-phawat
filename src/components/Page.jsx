@@ -13,18 +13,17 @@ import LockOpenIcon from '@mui/icons-material/LockOpen';
 
 
 
-
 const LandingPage = () => {
 
     return (
-        <div>
-        <Typography fontSize={'27px'} textAlign="center" marginTop={'50px'}  >
+        <div style={{ backgroundColor: '#e3f9ff' }}>
+        <Typography fontSize={'27px'} textAlign="center" paddingTop={10}  >
             Introducing platform for sigma </Typography>
-        <BannerContainer marginBottom={'160px'}>
+        <BannerContainer paddingTop={2}>
 
-            <BannerContent marginRight={'50px'}>
+            <BannerContent paddingRight={'50px'} >
                <Typography fontSize={'130px'} textAlign="center" fontWeight={'bold'} color= 'primary'>UNLOCK</Typography>
-               <Typography fontSize={'130px'} textAlign="center" fontWeight= {"bold"} color='#003479'>YOUR</Typography>
+               <Typography fontSize={'130px'} textAlign="center" fontWeight= {"bold"} color='#1e3a8a'>YOUR</Typography>
                <Typography fontSize={'130px'} textAlign="center" fontWeight= {"bold"} color= 'primary'>BR
                 <LockOpenIcon color="primary" sx={{ fontSize: 100 }} />IN</Typography>
                
@@ -33,11 +32,11 @@ const LandingPage = () => {
            
            <BannerContent marginLeft={'140px'}>
 
-               <Typography variant='h3' marginBottom={'10px'} whiteSpace= {'nowrap'} fontWeight= {"bold"} color= 'primary'>
+               <Typography variant='h3'  whiteSpace= {'nowrap'} fontWeight= {"bold"} color= 'primary'>
                 
                 Recap your knowledge</Typography>
 
-               <Typography variant='h4'marginBottom={'10px'} color='#003479'>study smart not hard</Typography>
+               <Typography variant='h4' color='#1e3a8a'>study smart not hard</Typography>
 
                 <GetStartbutton > GET STARTED!</GetStartbutton>
 
@@ -46,13 +45,13 @@ const LandingPage = () => {
         </BannerContainer >
 
 
-        <Typography  variant='h2' textAlign="center" marginTop={'2px'} marginBottom={'50px'} fontWeight={'bold'}>
+        <Typography  variant='h2' textAlign="center" padding={9}  fontWeight={'bold'}>
             Features </Typography>
 
 
 {/* card section */}
 {/* send to login/sign up page onClick */}
-    <BannerContainer>
+    <BannerContainer paddingBottom={22}>
 
       <GrowingCard>
 

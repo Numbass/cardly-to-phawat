@@ -55,7 +55,7 @@ export const VerticalDividers= styled(Divider)({
         borderColor: 'primary',
         borderRadius: 1,
         bgcolor: 'background.paper',
-        color: '#003479',
+        color: theme.palette.primary.main,
         height: '500px',
         '& svg': {
           m: 1,

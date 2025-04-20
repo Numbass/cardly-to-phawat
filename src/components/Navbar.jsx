@@ -18,18 +18,18 @@ const Navbar = () => {
 
 
                 {/* Home Subject About */}
-                  <Box sx={{ display: "flex", alignItems: "center", gap: 5 ,marginLeft: "1040px"}}>
-                    <Bluebutton onClick={() => {
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 5 ,paddingLeft: "1040px" }}>
+                    <Whitebutton onClick={() => {
                  
                       window.scrollTo({
                         top: '0', 
                         behavior: 'smooth'
                       });
-                    }}>Home</Bluebutton>
+                    }}>Home</Whitebutton>
 
 
 
-                    <Bluebutton
+                    <Whitebutton
                     onClick={() => {
                       
                       window.scrollTo({
@@ -37,9 +37,9 @@ const Navbar = () => {
                         behavior: 'smooth'
                       });
                     }}
-                    >Features</Bluebutton>
+                    >Features</Whitebutton>
 
-                  <Bluebutton 
+                  <Whitebutton 
                     onClick={() => {
                      
                       window.scrollTo({
@@ -47,17 +47,17 @@ const Navbar = () => {
                         behavior: 'smooth'
                       });
                     }}
-                    >Contact us</Bluebutton>
+                    >Contact us</Whitebutton>
                     
                     
                   </Box>
 
 
                 {/* Create and Login */}
-                <Box sx={{ display: "flex", alignItems: "center", gap: 2 ,marginLeft: "60px"}}>
+                <Box sx={{ display: "flex", alignItems: "center", gap: 2 ,paddingLeft: "60px"}}>
 
-                  <Whitebutton>Sign-up</Whitebutton>
-                  <Bluebutton>Login</Bluebutton>   
+                  <Bluebutton>Sign up</Bluebutton>
+                  <Whitebutton>Login</Whitebutton>   
                 </Box>
                 
 

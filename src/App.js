@@ -2,7 +2,7 @@ import {Box} from "@mui/material";
 import Navbar from "./components/Navbar";
 import Page from "./components/Page";
 import Footer from './components/Footer'
-
+import Login from './components/Login'
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Navbar></Navbar>
       <Page></Page>
       <Footer></Footer>
+      {/* <Login></Login> */}
     </Box>
   );
 }

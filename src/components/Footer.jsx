@@ -21,7 +21,7 @@ const Footer = () => {
 
     <FooterContainer>
 
-        <LogoContainer marginLeft={20}>
+        <LogoContainer paddingLeft={20}>
         <img 
                     src={CardlyLogo} 
                     alt="Cardly Logo" 
@@ -31,20 +31,20 @@ const Footer = () => {
 
         
 
-        <FooterContent marginLeft={20}>
+        <FooterContent paddingLeft={20}>
         <Typography fontWeight= "bold" fontSize= "1.7rem" color='white'>Contact us</Typography>
 
-        <Typography marginTop={'20px'} color='white'>(+99) 887766554</Typography>
+        <Typography paddingTop={'20px'} color='white'>(+99) 887766554</Typography>
         <Typography color='white'>cardly@gmail.com</Typography>
         <Typography color='white'>reggin@gmail.com</Typography>
         
         </FooterContent>
 
-        <FooterContent marginLeft={37}>
+        <FooterContent paddingLeft={37}>
 
         <Typography fontWeight= "bold" fontSize= "1.7rem" color='white'>Social</Typography>
 
-                <Stack marginTop={'20px'} direction="row" spacing={2}>
+                <Stack paddingTop={'20px'} direction="row" spacing={2}>
 
                     <Link href="https://www.facebook.com" target="_blank" rel="noopener">
                     <IconButton color="secondary">
@@ -73,10 +73,10 @@ const Footer = () => {
 
         </FooterContent>
 
-        <FooterContent marginLeft={24} >
+        <FooterContent paddingLeft={22}>
                 <Typography fontWeight= "bold" fontSize= "1.7rem" color='white'>Our Team</Typography>
 
-                <Stack marginTop={'20px'} direction="row">
+                <Stack paddingTop={'20px'} direction="row">
                 <Link href="https://x.com" target="_blank" rel="noopener">
                     <IconButton color="secondary">
                         <FaceIcon fontSize='large' />
